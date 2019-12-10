@@ -1,0 +1,81 @@
+.toptitle {
+  height: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.75rem; }
+
+.toptitle div {
+  flex: 1;
+  font-size: 0.65rem;
+  font-weight: bold; }
+
+.toptitle .left i {
+  font-size: 0.9rem;
+  float: left;
+  margin-left: 0.5rem; }
+
+.toptitle .left {
+  overflow: hidden; }
+
+.centeritem {
+  margin-bottom: 2rem; }
+
+.c_middle {
+  height: 7.75rem;
+  text-align: center;
+  margin-top: 2.25rem; }
+
+.c_img img {
+  display: block;
+  margin: 0 auto;
+  width: 3.5rem;
+  height: 3.5rem; }
+
+.next_1 {
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  color: #999999; }
+
+.next_2 {
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem; }
+
+.next_3 {
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: #8c8c8c; }
+
+.bottombg {
+  height: 15rem;
+  background-color: #f5f5f5;
+  padding-top: 0.375rem; }
+
+.b_item {
+  height: 2.1rem;
+  line-height: 2.1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  background-color: white; }
+
+.b_left {
+  margin-left: 0.75rem; }
+
+.b_item div i {
+  font-size: 0.9rem;
+  margin-right: 0.75rem; }
+
+.last {
+  color: #bababa;
+  font-size: 0.6rem;
+  margin-top: 7.5rem;
+  text-align: center; }

@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+.toptitle{
+    height: px2rem(70);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: px2rem(70);
+}
+.toptitle .middle{
+    font-size: px2rem(30);
+}
+.toptitle div{
+    flex: 1;
+    font-weight: bold;
+}
+.toptitle .left i{
+    font-size: px2rem(36);
+    float: left;
+    margin-left: px2rem(20);
+}
+.toptitle .left{
+overflow: hidden;
+}
+
+.item{width: 100%;}
+.itemcenter{
+    margin-left: px2rem(50);
+    margin-right: px2rem(50);
+    .item_c1{
+        font-size: px2rem(24);
+        padding-top: px2rem(40);
+        line-height: px2rem(40);
+        color: #777;
+    }
+    .item_c2{
+        font-size: px2rem(24);
+        padding-top: px2rem(50);
+        line-height: px2rem(40);
+        color: #777;
+    }
+    .item_c3{
+        margin-top: px2rem(30);
+        img{
+            display: block;
+            width: 100%;
+            height: px2rem(230);
+        }
+    }
+    .item_c4{
+        font-size: px2rem(24);
+        padding-top: px2rem(30);
+        line-height: px2rem(40);
+        color: #777;
+        padding-bottom: px2rem(140);
+    }
+}
