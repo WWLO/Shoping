@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+*{
+    margin: 0;
+    padding: 0;
+}
+.toptitle{
+    height: px2rem(70);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: px2rem(70);
+}
+.toptitle .middle{
+    font-size: px2rem(30);
+}
+.toptitle div{
+    flex: 1;
+    font-weight: bold;
+}
+.toptitle .left i{
+    font-size: px2rem(36);
+    float: left;
+    margin-left: px2rem(20);
+}
+.toptitle .left{
+overflow: hidden;
+}
+
+
+.itemmiddle{
+    padding-top: px2rem(30);
+    padding-right: px2rem(30);
+    padding-bottom: px2rem(30);
+    padding-left: px2rem(30);
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border-bottom: 2px solid #f5f5f5;
+    div{
+        font-size: px2rem(28);
+    }
+    i{
+        font-size: px2rem(36);
+        color: #999999;
+    }
+    P{
+        position: absolute;
+        font-size: px2rem(24);
+        right: px2rem(75);
+        color: #999999;
+    }
+}
+
+.bg{
+    padding-top: px2rem(10);
+    background-color: #f5f5f5;
+    padding-bottom: px2rem(400);
+}
+.bigbox{
+    .tishi{
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        height: 100vh;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        .tishicenter{
+            margin:auto;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            height: px2rem(330);
+            position: absolute;
+            z-index: 100;
+            margin-left: px2rem(80);
+            margin-right: px2rem(80);
+            background-color:white;
+            border-radius: px2rem(20);
+            .p1{
+                font-size: px2rem(30);
+                font-weight: bold;
+                padding-top: px2rem(50);
+                margin-left: px2rem(40);
+            }
+            .p2{
+                font-size: px2rem(26);
+                margin-left: px2rem(40);
+                margin-right: px2rem(40);
+                margin-top: px2rem(30);
+                color: #999999;
+                margin-bottom: px2rem(20);
+               line-height: px2rem(30);
+                .red{
+                    color: #ffc9a1;
+                }
+            }
+            .lastbtn{
+                overflow: hidden;
+                padding-top:px2rem(55);
+                padding-bottom:px2rem(55);
+                span{
+                    float: right;
+                    margin-right: px2rem(50);
+                    font-size: px2rem(30);
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.title {
+  position: relative;
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  font-weight: bold; }
+  .title i {
+    position: absolute;
+    top: 0.125rem;
+    left: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold; }
+
+.logo {
+  width: 100%;
+  height: 5rem;
+  margin-top: 2.75rem; }
+  .logo img {
+    display: block;
+    width: 5.35rem;
+    height: 100%;
+    margin: 0 auto; }
+
+.content {
+  width: 11rem;
+  height: 7.5rem;
+  margin: 0 auto;
+  margin-top: 1.65rem; }
+
+.phone {
+  height: 2.25rem;
+  border-bottom: 3px solid #f4f4f4;
+  line-height: 2.25rem; }
+  .phone i {
+    font-size: 0.7rem;
+    color: #c3c3c3; }
+  .phone span {
+    font-size: 0.75rem; }
+
+.phone i:nth-child(3) {
+  font-size: 0.625rem;
+  color: #000; }
+
+.insert {
+  border-bottom: 3px solid #f4f4f4;
+  line-height: 2.25rem;
+  padding-left: 0.2rem;
+  clear: both; }
+  .insert i {
+    float: left;
+    font-size: 0.7rem;
+    color: #c3c3c3; }
+  .insert input {
+    display: block;
+    border: none;
+    height: 2.25rem;
+    font-size: 0.7rem;
+    color: #c3c3c3;
+    width: 6.25rem;
+    padding-left: 0.75rem; }
+  .insert p {
+    float: right;
+    font-size: 0.6rem;
+    line-height: 1.25rem; }
+    .insert p a {
+      text-decoration: none;
+      color: #000; }
+
+.loginbtn {
+  width: 10rem;
+  height: 2.075rem;
+  background-color: #fd8b4d;
+  margin: 1.5rem auto;
+  border-radius: 60px; }
+  .loginbtn p {
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2.075rem; }
+
+.zhuce {
+  height: 1.675rem;
+  text-align: center;
+  font-size: 0.55rem; }
+
+.zhuce span:nth-child(1) {
+  color: #c2c2c2; }
+
+.zhuce span a {
+  text-decoration: none;
+  color: #fd8b4d; }
