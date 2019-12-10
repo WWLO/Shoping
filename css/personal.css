@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.top {
+  height: 11.75rem;
+  background-color: #fd8159; }
+
+.title {
+  height: 1.875rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.875rem; }
+
+.top_middle {
+  overflow: hidden;
+  padding: 1.15rem 0; }
+  .top_middle .left {
+    float: left;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 0.95rem; }
+
+.vip_icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center; }
+  .vip_icon i {
+    display: block;
+    font-size: 0.7rem;
+    color: #fd8159;
+    line-height: 1.125rem; }
+
+.vipbox {
+  display: flex;
+  align-items: center;
+  margin-top: 0.25rem; }
+
+.vip {
+  width: 1.375rem;
+  height: 0.6rem;
+  background-color: #fff;
+  font-size: 0.45rem;
+  color: #fd8159;
+  text-align: center;
+  line-height: 0.65rem;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  margin-left: -0.125rem; }
+
+.imgbox {
+  float: right;
+  margin-right: 0.95rem;
+  height: 3.075rem;
+  margin-top: -0.175rem; }
+  .imgbox img {
+    height: 100%; }
+
+.nav {
+  display: flex;
+  justify-content: space-around; }
+  .nav .navitem {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 0.55rem;
+    text-align: center; }
+    .nav .navitem i {
+      margin-bottom: 0.2rem;
+      font-size: 0.9rem; }
+
+.content {
+  position: absolute;
+  width: 14rem;
+  height: 13.675rem;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 0.625rem 0.5rem;
+  left: 0.55rem;
+  top: 10rem;
+  margin-bottom: 2.175rem; }
+
+.content ul li {
+  height: 1.95rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  line-height: 2rem;
+  border-bottom: 2px solid #f4f4f4; }
+  .content ul li .lileft {
+    float: left; }
+    .content ul li .lileft i {
+      font-size: 0.8rem;
+      color: #b7b7b7;
+      margin-right: 0.125rem; }
+  .content ul li .liright {
+    float: right; }
+    .content ul li .liright i {
+      font-size: 0.8rem;
+      color: #b7b7b7; }
+
+.footer {
+  width: 100%;
+  height: 2.175rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff; }
+
+.footer-item a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 0.45rem;
+  color: #868686;
+  text-align: center; }
+
+.footer-item a i {
+  font-size: 1rem; }
+
+.footer-item a:link {
+  color: #868686; }
+
+.footer-item a:hover {
+  color: #ff9140; }
