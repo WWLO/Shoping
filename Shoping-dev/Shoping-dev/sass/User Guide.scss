@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+.toptitle{
+    height: px2rem(70);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: px2rem(70);
+}
+.toptitle .middle{
+    font-size: px2rem(30);
+}
+.toptitle div{
+    flex: 1;
+    font-weight: bold;
+}
+.toptitle .left i{
+    font-size: px2rem(36);
+    float: left;
+    margin-left: px2rem(20);
+}
+.toptitle .left{
+overflow: hidden;
+}
+
+
+.itemmiddle{
+    padding-top: px2rem(30);
+    padding-right: px2rem(30);
+    padding-bottom: px2rem(30);
+    padding-left: px2rem(30);
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border-bottom: 2px solid #f5f5f5;
+    div{
+        font-size: px2rem(28);
+    }
+    i{
+        font-size: px2rem(36);
+    }
+}
+
+.bg{
+    padding-top: px2rem(10);
+    background-color: #f5f5f5;
+    padding-bottom: px2rem(740);
+}

@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+
+.toptitle{
+    height: px2rem(70);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: px2rem(70);
+
+}
+.toptitle .middle{
+    font-size: px2rem(30);
+}
+.toptitle div{
+    flex: 1;
+
+    font-weight: bold;
+}
+.toptitle .left i{
+    font-size: px2rem(36);
+    float: left;
+    margin-left: px2rem(20);
+}
+.toptitle .left{
+overflow: hidden;
+
+}
+
+
+.item_middle{
+color: #666666;
+margin-top:px2rem(60);
+margin-bottom:px2rem(60);
+
+margin-left: px2rem(30);
+margin-right: px2rem(30);
+// 这两句话控制在一个div中字符不溢出自动换行
+word-wrap:break-word; 
+word-break:break-all;
+// overflow: hidden;/*这个参数根据需要来决定要不要*/
+}
+.item_middle p{
+font-size: px2rem(14);
+}
+
+.item_middle2{
+    color: #656565;
+
+    
+    margin-left: px2rem(30);
+    margin-right: px2rem(30);
+    // 这两句话控制在一个div中字符不溢出自动换行
+    word-wrap:break-word; 
+    word-break:break-all;
+    // overflow: hidden;/*这个参数根据需要来决定要不要*/
+    }
+    .item_middle2 p{
+    font-size: px2rem(14);
+    }
+    .p1{
+        margin-top: px2rem(15);
+        margin-bottom: px2rem(50);
+    }
+    .p2{
+        margin-bottom: px2rem(10);
+    }
+    .p3{
+        margin-bottom: px2rem(50);
+    }
+    .olshenxu1 li{
+        margin-bottom: px2rem(50);
+        color: #656565;
+        font-size: px2rem(14);
+        margin-left: px2rem(30);
+margin-right: px2rem(30);
+    }
+

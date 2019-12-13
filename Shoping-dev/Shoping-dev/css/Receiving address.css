@@ -1,0 +1,60 @@
+.toptitle {
+  height: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.75rem; }
+
+.toptitle div {
+  flex: 1;
+  font-size: 0.65rem;
+  font-weight: bold; }
+
+.toptitle .left i {
+  font-size: 0.9rem;
+  float: left;
+  margin-left: 0.5rem; }
+
+.toptitle .right i {
+  font-size: 0.9rem;
+  float: right;
+  margin-right: 0.5rem; }
+
+.toptitle .left {
+  overflow: hidden; }
+
+.toptitle .right {
+  overflow: hidden; }
+
+.item {
+  padding-bottom: 16.65rem;
+  background-color: #f5f5f5; }
+
+.item_center {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background-color: white; }
+
+.itemx .itemx_top {
+  display: flex;
+  justify-content: space-between; }
+  .itemx .itemx_top h1 {
+    font-size: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; }
+  .itemx .itemx_top .iconss {
+    font-size: 0.6rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; }
+    .itemx .itemx_top .iconss i {
+      font-size: 0.75rem; }
+
+.itemx .itemx_bottom {
+  font-size: 0.5rem;
+  line-height: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #555555; }
+
+.yanse {
+  height: 0.3rem;
+  background-color: #f5f5f5; }

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.toptitle {
+  height: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.75rem; }
+
+.toptitle .middle {
+  font-size: 0.75rem; }
+
+.toptitle div {
+  flex: 1;
+  font-weight: bold; }
+
+.toptitle .left i {
+  font-size: 0.9rem;
+  float: left;
+  margin-left: 0.5rem; }
+
+.toptitle .left {
+  overflow: hidden; }
+
+.itemmiddle {
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 2px solid #f5f5f5; }
+  .itemmiddle div {
+    font-size: 0.7rem; }
+  .itemmiddle i {
+    font-size: 0.9rem;
+    color: #999999; }
+  .itemmiddle P {
+    position: absolute;
+    font-size: 0.6rem;
+    right: 1.875rem;
+    color: #999999; }
+
+.bg {
+  padding-top: 0.25rem;
+  background-color: #f5f5f5;
+  padding-bottom: 10rem; }
+
+.bigbox .tishi {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  z-index: 10;
+  position: absolute;
+  top: 0; }
+  .bigbox .tishi .tishicenter {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 8.25rem;
+    position: absolute;
+    z-index: 100;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 0.5rem; }
+    .bigbox .tishi .tishicenter .p1 {
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding-top: 1.25rem;
+      margin-left: 1rem; }
+    .bigbox .tishi .tishicenter .p2 {
+      font-size: 0.65rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-top: 0.75rem;
+      color: #999999;
+      margin-bottom: 0.5rem;
+      line-height: 0.75rem; }
+      .bigbox .tishi .tishicenter .p2 .red {
+        color: #ffc9a1; }
+    .bigbox .tishi .tishicenter .lastbtn {
+      overflow: hidden;
+      padding-top: 1.375rem;
+      padding-bottom: 1.375rem; }
+      .bigbox .tishi .tishicenter .lastbtn span {
+        float: right;
+        margin-right: 1.25rem;
+        font-size: 0.75rem;
+        color: black; }

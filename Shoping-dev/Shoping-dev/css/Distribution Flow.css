@@ -1,0 +1,50 @@
+.toptitle {
+  height: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.75rem; }
+
+.toptitle .middle {
+  font-size: 0.75rem; }
+
+.toptitle div {
+  flex: 1;
+  font-weight: bold; }
+
+.toptitle .left i {
+  font-size: 0.9rem;
+  float: left;
+  margin-left: 0.5rem; }
+
+.toptitle .left {
+  overflow: hidden; }
+
+.item {
+  width: 100%; }
+
+.itemcenter {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem; }
+  .itemcenter .item_c1 {
+    font-size: 0.6rem;
+    padding-top: 1rem;
+    line-height: 1rem;
+    color: #777; }
+  .itemcenter .item_c2 {
+    font-size: 0.6rem;
+    padding-top: 1.25rem;
+    line-height: 1rem;
+    color: #777; }
+  .itemcenter .item_c3 {
+    margin-top: 0.75rem; }
+    .itemcenter .item_c3 img {
+      display: block;
+      width: 100%;
+      height: 5.75rem; }
+  .itemcenter .item_c4 {
+    font-size: 0.6rem;
+    padding-top: 0.75rem;
+    line-height: 1rem;
+    color: #777;
+    padding-bottom: 3.5rem; }

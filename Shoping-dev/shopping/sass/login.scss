@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.top{
+    height: px2rem(160);
+    overflow: hidden;
+    line-height: px2rem(160);
+    .topright{
+        float: right;
+        font-size: px2rem(22);
+        margin-right: px2rem(25);
+    }
+}
+.topright span:nth-child(2){
+    color: #c2c2c2;
+}
+.logo{
+    width: 100%;
+    height: px2rem(200);
+    img{
+        display: block;
+        width: px2rem(214);
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+// 登录
+.content{
+    width: px2rem(440);
+    height: px2rem(300);
+    // background-color: red;
+    margin: 0 auto;
+    margin-top: px2rem(66);
+}
+.phone{
+    height: px2rem(90);
+    border-bottom: 3px solid #f4f4f4;
+    line-height: px2rem(90);
+    i{
+        font-size: px2rem(28);
+        color: #c3c3c3;
+    }
+    span{
+        font-size: px2rem(30);
+    }
+}
+.phone i:nth-child(3){
+    font-size: px2rem(25);
+    color: #000;
+}
+.insert{
+    border-bottom: 3px solid #f4f4f4;
+    line-height: px2rem(90);
+    padding-left: px2rem(8);
+    clear: both;
+    i{
+        float: left;
+        font-size: px2rem(28);
+        color: #c3c3c3;
+    }
+    input{
+        display: block;
+        border: none;
+        height: px2rem(90);
+        font-size: px2rem(28);
+        color: #c3c3c3;
+        width: px2rem(270);
+        padding-left: px2rem(30);
+  
+    }
+    p{
+        float: right;
+        font-size: px2rem(24);
+        line-height: px2rem(90);
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+.loginbtn{
+    width: px2rem(400);
+    height: px2rem(83);
+    background-color: #fd8b4d;
+    margin: px2rem(60) auto;
+    border-radius: 60px;
+    p{
+        font-size: px2rem(28);
+        color: #fff;
+        text-align: center;
+        line-height: px2rem(83);
+    }
+}
+.zhuce{
+    height: px2rem(67);
+    text-align: center;
+    font-size: px2rem(22);
+}
+.zhuce span:nth-child(1){
+    color: #c2c2c2;
+}
+.zhuce span a{
+    text-decoration: none;
+    color: #fd8b4d;
+}
+

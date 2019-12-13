@@ -1,0 +1,167 @@
+.top {
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  position: relative;
+  font-size: 0.6rem;
+  font-weight: bold; }
+
+.zuo {
+  width: 1rem;
+  height: 1rem; }
+
+.zuo i {
+  font-size: 1rem;
+  color: #777777; }
+
+.top .zuo {
+  position: absolute;
+  top: 0px;
+  left: 1rem; }
+
+.bgcolor {
+  height: 4.25rem;
+  background-color: #ff3f1b;
+  display: flex;
+  justify-content: space-between; }
+
+.left {
+  margin-left: 0.75rem;
+  color: white; }
+
+.p1 {
+  margin-top: 1.25rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem; }
+
+.p2 {
+  font-size: 0.5rem;
+  margin-bottom: 1.25rem; }
+
+.right {
+  margin-right: 0.75rem;
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  margin-top: 0.625rem; }
+
+.right img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.bigitembox {
+  background-color: #f5f5f5; }
+
+.shou {
+  height: 4rem;
+  background-color: white; }
+
+.shou .top {
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.75rem;
+  margin-right: 1rem; }
+
+.shou .bottom {
+  font-size: 0.55rem;
+  color: #515151; }
+
+.bottom span i {
+  font-size: 0.75rem;
+  margin-left: 0.75rem;
+  margin-right: 0.1rem; }
+
+.qian {
+  background-color: white;
+  margin-top: 0.375rem;
+  padding-bottom: 0.375rem; }
+
+.q_center {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem; }
+
+.q_c_top {
+  height: 6rem; }
+
+.qcttimg {
+  display: flex;
+  justify-content: space-between; }
+
+.qcttimg img {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-top: 0.625rem; }
+
+.txtitem {
+  flex: 1;
+  margin-left: 0.25rem; }
+
+.txt_top {
+  font-size: 0.6rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between; }
+
+.txt_b {
+  font-size: 0.5rem;
+  color: #515151;
+  padding-top: 0.5rem; }
+
+.qcttb {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.55rem;
+  padding-top: 0.5rem;
+  color: #515151;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f5f5f5; }
+
+.q_c_t_bottom {
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 0.55rem;
+  display: flex;
+  justify-content: space-between; }
+
+.q_c_t_bottom .shiji {
+  color: #515151; }
+
+.q_c_t_bottom .red {
+  color: red; }
+
+.bibbottom {
+  font-size: 0.55rem;
+  color: #515151;
+  background-color: white;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
+
+.bibbottom .bibb_top {
+  margin-bottom: 0.5rem; }
+
+.jiangec {
+  background-color: #f5f5f5;
+  height: 0.4rem; }
+
+.btnbottom {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.65rem; }
+
+.btn1 input {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 2.5rem;
+  height: 1.25rem; }
+
+.btn2 input {
+  color: red;
+  margin-top: 1.25rem;
+  width: 2.5rem;
+  height: 1.25rem;
+  margin-bottom: 1.25rem; }

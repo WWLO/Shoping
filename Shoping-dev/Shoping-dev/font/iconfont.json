@@ -1,0 +1,156 @@
+{
+  "id": "1519579",
+  "name": "flex",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "287175",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "554100",
+      "name": "文档箱",
+      "font_class": "iconset0151",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "689262",
+      "name": "类目 品类 分类 类别",
+      "font_class": "leimupinleifenleileibie",
+      "unicode": "e7f9",
+      "unicode_decimal": 59385
+    },
+    {
+      "icon_id": "706851",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1002521",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1173185",
+      "name": "车巴巴-下拉框箭头1",
+      "font_class": "linecar105",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "1244098",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1544666",
+      "name": "地球探索",
+      "font_class": "icon-test",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "1637081",
+      "name": "皇冠",
+      "font_class": "huangguan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "4322610",
+      "name": "会员礼包",
+      "font_class": "huiyuanlibao",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "4425833",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e79b",
+      "unicode_decimal": 59291
+    },
+    {
+      "icon_id": "6626328",
+      "name": "货车",
+      "font_class": "huoche",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "7511486",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "8145820",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "8716031",
+      "name": "火",
+      "font_class": "huo",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "8842685",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "9512489",
+      "name": "右箭头",
+      "font_class": "arrowRight",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "9512701",
+      "name": "加号",
+      "font_class": "add-fill",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "9512713",
+      "name": "钱包",
+      "font_class": "wallet",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "9607826",
+      "name": "货车",
+      "font_class": "huoche1",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "10809893",
+      "name": "向下 箭头",
+      "font_class": "changyongtubiao-xianxingdaochu-zhuanqu-",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    }
+  ]
+}
